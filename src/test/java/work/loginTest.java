@@ -20,6 +20,10 @@ public class loginTest {
        driver.findElement(By.id("Passwd")).sendKeys("Cocoverde22");
        driver.findElement(By.id("signIn")).click();
        Thread.sleep(2000);
+       System.out.println("GITHUB Test");
+       System.out.println("GITHUB Test");
+       System.out.println("GITHUB Test");
+       System.out.println("GITHUB Test");
        driver.quit();
    }
 }
