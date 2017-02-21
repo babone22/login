@@ -14,10 +14,10 @@ public class loginTest {
 	   driver = new ChromeDriver();
        driver.get("https://accounts.google.com");
        driver.manage().window().maximize();
-       driver.findElement(By.id("Email")).sendKeys("wetprelude");
+       driver.findElement(By.id("Email")).sendKeys("");
        driver.findElement(By.id("next")).click();
        Thread.sleep(1000);
-       driver.findElement(By.id("Passwd")).sendKeys("Cocoverde22");
+       driver.findElement(By.id("Passwd")).sendKeys("");
        driver.findElement(By.id("signIn")).click();
        Thread.sleep(2000);
        System.out.println("GITHUB Test");
